@@ -4,9 +4,16 @@
     <title>Test Webseite</title>
     <!-- weitere Kopfinformationen -->
     <!-- Kommentare werden im Browser nicht angezeigt. -->
+    <script>
+        function increment(){
+            alert("Test");
+        }
+    </script>
   </head>
   <body>
     <h1 style="text-align: center; font-weight: 500;">Test Inhalt</h1>
-    <p style="text-align: center;">Test Inhalt 2</p>
+    <p style="text-align: center;">
+        <button onclick="increment()">+1</button>
+    </p>
   </body>
 </html>
