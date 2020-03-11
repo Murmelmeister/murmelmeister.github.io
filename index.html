@@ -6,13 +6,14 @@
     <!-- Kommentare werden im Browser nicht angezeigt. -->
     <script>
         function increment(){
-            alert("Test");
+            const couter = document.getElementById("couter");
         }
     </script>
   </head>
   <body>
     <h1 style="text-align: center; font-weight: 500;">Test Inhalt</h1>
     <p style="text-align: center;">
+        <input type="text" id="couter" value="0">
         <button onclick="increment()">+1</button>
     </p>
   </body>
